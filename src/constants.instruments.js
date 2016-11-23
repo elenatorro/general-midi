@@ -131,4 +131,4 @@ var MidiInstruments = Object.freeze({
   127: 'gunshot'
 });
 
-export default MidiInstruments;
+module.exports = MidiInstruments;
