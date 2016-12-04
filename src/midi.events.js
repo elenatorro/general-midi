@@ -71,11 +71,6 @@ var MidiEvents = {
 
   getEvent: {
     0x00: function sequenceNumber(event, stream) {
-      MidiErrors.checkStreamLength(
-        Events.Meta.Type.SequenceNumber.NAME,
-        Events.Meta.Type.SequenceNumber.LENGTH,
-        Utils.getStreamLength(stream)
-      );
       event.subtype = Events.Meta.Type.SequenceNumber.NAME;
       event.number  = Utils.getStreamNumber(stream);
       return event;

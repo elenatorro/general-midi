@@ -15,8 +15,7 @@ var Events = Object.freeze({
     Type: {
       SequenceNumber: {
         BYTE:  0x00,
-        NAME:  'sequenceNumber',
-        LENGTH: 2
+        NAME:  'sequenceNumber'
       },
       TextType: {
         BYTE: 0x01,
