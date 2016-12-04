@@ -219,13 +219,13 @@ var MidiEvents = {
     },
 
     0xf0: function sysEx(event, stream) {
-      event.type = Events.System.SysEx.NAME;
+      event.type = Events.SysEx.NAME;
       event.data = Utils.getStreamText(stream);
       return event;
     },
 
     0xf7: function dividedSysEx(event, stream) {
-      event.type = Events.System.DividedSysEx.NAME;
+      event.type = Events.DividedSysEx.NAME;
       event.data = Utils.getStreamText(stream);
       return event;
     },
