@@ -28,7 +28,7 @@ var MidiInstrumentsEmojis = Object.freeze({
   18:  'rock_organ',
   19:  'church_organ',
   20:  'reed_organ',
-  21:  'Accordion',
+  21:  'accordion',
   22:  'harmonica',
   23:  'tango_accordion',
   24:  'acoustic_guitar_nylon',
