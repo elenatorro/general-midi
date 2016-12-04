@@ -159,8 +159,8 @@ var MidiEvents = {
       var smpteOffset;
 
       MidiErrors.checkStreamLength(
-        Events.Meta.Type.SMTPOffset.NAME,
-        Events.Meta.Type.SMTPOffset.LENGTH,
+        Events.Meta.Type.SMPTEOffset.NAME,
+        Events.Meta.Type.SMPTEOffset.LENGTH,
         Utils.getStreamLength(stream)
       );
 

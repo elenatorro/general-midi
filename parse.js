@@ -4,7 +4,7 @@ var
 ;
 
 const
-  MIDI_FILE = 'StarWars.mid',
+  MIDI_FILE = 'sample.mid',
   DIST_FILE = 'sample.json',
   FILE_TYPE = 'binary'
 ;
