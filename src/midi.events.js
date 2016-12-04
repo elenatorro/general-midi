@@ -166,7 +166,7 @@ var MidiEvents = {
 
       smpteOffset = Utils.getSMPTEOffset(stream);
 
-      event.subtype   = Events.Meta.Type.SMTPOffset.NAME;
+      event.subtype   = Events.Meta.Type.SMPTEOffset.NAME;
       event.frameRate = smpteOffset.frameRate;
       event.hour      = smpteOffset.frameRate;
       event.min       = smpteOffset.frameRate;
